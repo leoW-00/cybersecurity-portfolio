@@ -83,7 +83,9 @@ The email is a legitimate internal communication from HR. The alert was likely t
 ## 📘 Lessons Learned
 - False positives are common with automated email filters  
 - Understanding internal processes prevents unnecessary escalations  
-- Proper documentation helps maintain SOC efficiency  
+- Proper documentation helps maintain SOC efficiency
+- Incidence Response
+- Log analysis 
 
 ---
 
