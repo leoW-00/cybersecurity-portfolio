@@ -33,6 +33,7 @@ Hands-on analysis of different log sources using Splunk, with a focus on identif
 Threat research, detection engineering, phishing investigations, alert triage, and incident documentation.
 
 - [Lazarus Group / Ronin Hack detection engineering](Detection%20Engineering%20Analysis%20of%20Lazarus%20Group%20%28Ronin%20Hack%29%20using%20MITRE%20ATT%26CK.pdf)
+- [Binance Hack — OSINT Investigation Report](Binance_2026Hack_OSINT_Investigation_L_Ndungu.pdf)
 - [Phishing email detection — SIEM report](Phishing_Email_Detection%20Tool_SIEM_Report.pdf)
 - [Incident 1 — Blacklisted URL](incident-1-blacklisted-url.md)
 - [Incident 2 — Onboarding email investigation](incident-2-false-positive-onboarding-email.md)
