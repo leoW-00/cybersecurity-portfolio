@@ -1,84 +1,79 @@
-[README.md](https://github.com/user-attachments/files/34366475/README.md)
+[README-fixed.md](https://github.com/user-attachments/files/34367022/README-fixed.md)
 # Cybersecurity Portfolio — Leonard Ndungu
 
-Entry-level SOC Analyst portfolio showcasing hands-on work in SIEM log analysis, incident investigation, threat detection, network reconnaissance, packet analysis, and Python-based security automation.
+Aspiring SOC Analyst | SIEM Analysis | Incident Response | Threat Detection | Network Security | Python Automation
 
-> **Portfolio note:** Reports document lab exercises and simulated investigations unless explicitly stated otherwise. Testing was performed only in authorised lab environments.
+This repository presents practical cybersecurity labs, investigations, detection engineering work, network reconnaissance exercises, packet analysis reports, and Python security tools.
+
+> **Lab and authorization note:** The reports describe lab exercises and simulated investigations unless a project explicitly states otherwise. Scanning and testing were conducted in authorised environments.
 
 ## Featured projects
 
-| Project | What it demonstrates | Report / source |
+| Project | Skills demonstrated | Project file |
 |---|---|---|
-| Lazarus Group (Ronin) detection engineering | MITRE ATT&CK mapping, threat research, detection engineering | [Open report](02-THREAT-DETECTION-AND-INCIDENT-RESPONSE/Lazarus-Group-Ronin-Hack-Detection-Engineering.pdf) |
-| SOAR-style IOC enrichment | Threat intelligence enrichment, risk scoring, Python automation | [Open report](03-SOAR-AND-SECURITY-AUTOMATION/IOC-Enrichment-and-Threat-Scoring-Report.pdf) · [Python tool](06-PYTHON-SECURITY-TOOLS/ioc_checker.py) |
-| Phishing email analysis tool | Email parsing, header/domain analysis, IOC extraction | [Python source](06-PYTHON-SECURITY-TOOLS/phishing_email_analyser.py) · [SIEM report](02-THREAT-DETECTION-AND-INCIDENT-RESPONSE/Phishing-Email-Detection-Tool-SIEM-Report.pdf) |
-| HTTP log analysis with Splunk | Web log investigation and suspicious activity analysis | [Open report](01-SIEM-AND-LOG-ANALYSIS/HTTP-Log-Analysis-Using-Splunk.pdf) |
-| SSH log analysis with Splunk | Authentication log analysis and investigation | [Open report](01-SIEM-AND-LOG-ANALYSIS/SSH-Log-Analysis-Using-Splunk.pdf) |
-| SMTP log analysis with Splunk | Email traffic and mail-server log analysis | [Open report](01-SIEM-AND-LOG-ANALYSIS/SMTP-Log-Analysis-Using-Splunk.pdf) |
+| Lazarus Group / Ronin Hack detection engineering | Threat research, MITRE ATT&CK mapping, detection engineering | [Read the report](Detection%20Engineering%20Analysis%20of%20Lazarus%20Group%20%28Ronin%20Hack%29%20using%20MITRE%20ATT%26CK.pdf) |
+| Splunk DNS log analysis | DNS event investigation, SIEM queries, identifying suspicious domain activity | [Read the report](DNS_Log_Analysis_Splunk_SOC_Project.pdf) |
+| Splunk HTTP log analysis | SIEM queries, web-log investigation, suspicious activity analysis | [Read the report](HTTP_Log_Analysis_Splunk_SOC_Project.pdf) |
+| Phishing email detection | Email security analysis, phishing indicators, SIEM investigation | [Read the report](Phishing_Email_Detection%20Tool_SIEM_Report.pdf) |
+| SOAR-based IOC enrichment | Threat intelligence, IOC enrichment, risk scoring, Python automation | [Read the report](SOAR-Based%20IOC%20Enrichment%20and%20Threat%20Scoring%20Tool%20report.pdf) · [View Python tool](ioc_checker.py) |
+| Splunk SMTP log analysis | Email traffic investigation and log analysis | [Read the report](SMTP_Log_Analysis_Splunk_SOC_Project_Report.pdf) |
+| Splunk SSH log analysis | Authentication log analysis and investigation | [Read the report](e%20SSH_Log_Analysis_Splunk_SOC_Project.pdf) |
 
-## Project categories
+## 1. SIEM and log analysis
 
-### 1. SIEM and log analysis
-- [HTTP log analysis using Splunk](01-SIEM-AND-LOG-ANALYSIS/HTTP-Log-Analysis-Using-Splunk.pdf)
-- [SSH log analysis using Splunk](01-SIEM-AND-LOG-ANALYSIS/SSH-Log-Analysis-Using-Splunk.pdf)
-- [SMTP log analysis using Splunk](01-SIEM-AND-LOG-ANALYSIS/SMTP-Log-Analysis-Using-Splunk.pdf)
-- [DNS report recovery note](01-SIEM-AND-LOG-ANALYSIS/DNS-LOG-REPORT-RECOVERY-REQUIRED.md) — the uploaded PDF was corrupted (1 byte) and has been excluded.
+Hands-on analysis of different log sources using Splunk, with a focus on identifying suspicious activity and documenting investigation findings.
 
-### 2. Threat detection and incident response
-- [Lazarus Group / Ronin detection engineering](02-THREAT-DETECTION-AND-INCIDENT-RESPONSE/Lazarus-Group-Ronin-Hack-Detection-Engineering.pdf)
-- [Incident 01 — Blacklisted URL](02-THREAT-DETECTION-AND-INCIDENT-RESPONSE/Incident-01-Blacklisted-URL.md)
-- [Incident 02 — Onboarding email false positive](02-THREAT-DETECTION-AND-INCIDENT-RESPONSE/Incident-02-Onboarding-Email-False-Positive.md)
-- [Incident 03 — Microsoft typosquatting phishing](02-THREAT-DETECTION-AND-INCIDENT-RESPONSE/Incident-03-Microsoft-Typosquatting-Phishing.md)
-- [Incident 04 — Onboarding email false positive](02-THREAT-DETECTION-AND-INCIDENT-RESPONSE/Incident-04-Onboarding-Email-False-Positive.md)
-- [Incident 05 — Amazon delivery phishing](02-THREAT-DETECTION-AND-INCIDENT-RESPONSE/Incident-05-Amazon-Delivery-Phishing.md)
-- [Phishing email detection SIEM report](02-THREAT-DETECTION-AND-INCIDENT-RESPONSE/Phishing-Email-Detection-Tool-SIEM-Report.pdf)
+- [DNS log analysis — Splunk](DNS_Log_Analysis_Splunk_SOC_Project.pdf)
+- [HTTP log analysis — Splunk](HTTP_Log_Analysis_Splunk_SOC_Project.pdf)
+- [SSH log analysis — Splunk](e%20SSH_Log_Analysis_Splunk_SOC_Project.pdf)
+- [SMTP log analysis — Splunk](SMTP_Log_Analysis_Splunk_SOC_Project_Report.pdf)
 
-### 3. SOAR and security automation
-- [IOC enrichment and threat scoring report](03-SOAR-AND-SECURITY-AUTOMATION/IOC-Enrichment-and-Threat-Scoring-Report.pdf)
+## 2. Threat detection and incident response
 
-### 4. Network reconnaissance — Nmap
-- [Project 01 — Port scanning and service mapping](04-NETWORK-RECONNAISSANCE/Nmap-Project-01-Port-Scanning-and-Service-Mapping.md)
-- [Project 02 report](04-NETWORK-RECONNAISSANCE/Nmap-Project-02-Report.pdf)
-- [Project 03 report](04-NETWORK-RECONNAISSANCE/Nmap-Project-03-Report.pdf)
-- [Project 04 report](04-NETWORK-RECONNAISSANCE/Nmap-Project-04-Report.pdf)
+Threat research, detection engineering, phishing investigations, alert triage, and incident documentation.
 
-### 5. Network traffic analysis — Wireshark
-- [Level 01 report](05-NETWORK-TRAFFIC-ANALYSIS/Wireshark-Level-01-Report.pdf)
-- [Level 03 report](05-NETWORK-TRAFFIC-ANALYSIS/Wireshark-Level-03-Report.pdf)
-- [Level 04 report](05-NETWORK-TRAFFIC-ANALYSIS/Wireshark-Level-04-Traffic-Analysis-Report.pdf)
+- [Lazarus Group / Ronin Hack detection engineering](Detection%20Engineering%20Analysis%20of%20Lazarus%20Group%20%28Ronin%20Hack%29%20using%20MITRE%20ATT%26CK.pdf)
+- [Phishing email detection — SIEM report](Phishing_Email_Detection%20Tool_SIEM_Report.pdf)
+- [Incident 1 — Blacklisted URL](incident-1-blacklisted-url.md)
+- [Incident 2 — Onboarding email investigation](incident-2-false-positive-onboarding-email.md)
+- [Incident 3 — Microsoft typosquatting phishing](incident-3-phishing-microsoft-typosquatting.md)
+- [Incident 4 — Onboarding email false positive](incident-4-false-positive-onboarding-email.md)
+- [Incident 5 — Amazon-themed phishing](incident-5-phishing-amazon-biz.md)
 
-### 6. Python security tools
-- [IOC enrichment tool](06-PYTHON-SECURITY-TOOLS/ioc_checker.py)
-- [Phishing email analyser](06-PYTHON-SECURITY-TOOLS/phishing_email_analyser.py)
+## 3. SOAR and security automation
+
+- [SOAR-based IOC enrichment and threat scoring report](SOAR-Based%20IOC%20Enrichment%20and%20Threat%20Scoring%20Tool%20report.pdf)
+- [IOC checker — Python source](ioc_checker.py)
+- [Phishing email tool — Python source](phishing_tool.py)
+
+## 4. Network reconnaissance — Nmap
+
+- [Project 1 — Port scanning and service mapping](Nmap%201%20Port%20Scanning%20and%20Service%20Mapping%20of%20a%20Local%20Web%20Server%20using%20Nmap%20.md)
+- [Project 2 — Nmap report](Nmap_Project_2_Pro_Report%20%281%29.pdf)
+- [Project 3 — Nmap report](Nmap_Project_3_Report.pdf)
+- [Project 4 — Nmap report](Nmap_Project_4_Report.pdf)
+
+## 5. Network traffic analysis — Wireshark
+
+- [Wireshark Level 1 report](Wireshark_Level1_Report_Updated.pdf)
+- [Wireshark Level 3 report](Wireshark_Level_3_Report.pdf)
+- [Wireshark Level 4 traffic analysis report](Wireshark_Level_%204%20Traffic_Analysis_Report.pdf)
 
 ## Skills demonstrated
-- SIEM investigation and log analysis with Splunk
-- Alert triage, phishing analysis, and incident documentation
+
+- SIEM monitoring and log analysis with Splunk
+- Security alert triage and incident investigation
+- Phishing analysis and email security
+- Threat intelligence and IOC enrichment
 - MITRE ATT&CK mapping and detection engineering
-- IOC enrichment and threat intelligence workflows
-- Network reconnaissance with Nmap and traffic analysis with Wireshark
+- Network reconnaissance with Nmap
+- Packet and network traffic analysis with Wireshark
 - Python scripting and security automation
 
-## Running the Python tools
+## Repository contents
 
-Use Python 3. Install dependencies as needed (the phishing analyser uses third-party packages such as `requests` and `dnspython`). Never hard-code API credentials in source code. Configure credentials as environment variables before running `ioc_checker.py`:
-
-- `ABUSEIPDB_API_KEY`
-- `VIRUSTOTAL_API_KEY`
-- `SHODAN_API_KEY`
-
-The IOC tool uses these environment variables and does not contain embedded API keys. API keys that were previously committed to a public repository should be revoked and replaced immediately.
-
-## Repository structure
-
-```text
-01-SIEM-AND-LOG-ANALYSIS/
-02-THREAT-DETECTION-AND-INCIDENT-RESPONSE/
-03-SOAR-AND-SECURITY-AUTOMATION/
-04-NETWORK-RECONNAISSANCE/
-05-NETWORK-TRAFFIC-ANALYSIS/
-06-PYTHON-SECURITY-TOOLS/
-```
+The project reports are provided as PDF files, while incident write-ups and the Nmap Project 1 walkthrough are provided in Markdown. Python tools are included as source files for review.
 
 ---
-**Contact:** See the profile linked to this GitHub account for professional contact details.
+
+**Contact:** Please use the professional contact details on my GitHub profile.
