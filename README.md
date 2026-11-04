@@ -77,4 +77,4 @@ The project reports are provided as PDF files, while incident write-ups and the 
 
 ---
 
-**Contact:** Please use the professional contact details on my GitHub profile.
+**Contact:** wachiraleon003@gmail.com , +254769861371
